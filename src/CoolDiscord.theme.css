@@ -1,0 +1,114 @@
+/**
+ * @name Cool Discord
+ * @author ! Frazixᴰᴱⱽ#9999
+ * @version 1.0.0
+ * @description Changes The hole discord and make it look more cooler then ever.
+ * @source https://github.com/DiscordStyles/RadialStatus
+ * @website https://frazix12.repl.co/
+*/
+
+@import url("https://frazix-gamers.github.io/Cool-Discord/css/RadialStatus.css");
+
+@import url("https://frazix-gamers.github.io/Cool-Discord/css/HorizontalServerList.css");
+
+@import url("https://frazix-gamers.github.io/Cool-Discord/css/SettingsIcons.css");
+@import url("https://frazix-gamers.github.io/Cool-Discord/css/user-tags.css");
+
+@import url("https://frazix-gamers.github.io/Cool-Discord/css/source.css");
+
+:root {
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: block;
+
+  --home-button-image: url("https://discordstyles.github.io/FrostedGlass/assets/discord.svg"); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --home-button-size: cover;
+  --home-button-position: center;
+  --font: "Whitney";
+
+  --update-notice-1: none;
+  --HSL-server-icon-size: 48px;
+  --HSL-server-spacing: 8px;
+
+  --app-bg: url("https://i.imgur.com/g8VMJZL.jpg");
+  --app-blur: 6px;
+  --app-margin: 24px;
+  --app-radius: 8px;
+  --app-accent: #663dd7;
+  --app-accent-image: none;
+  --app-accent-rgb: 215, 61, 61;
+  --app-accent-text: rgb(255, 255, 255); /*	-	*/
+
+  --sidebar-color: rgba(0, 0, 0, 0.4);
+  --main-content-color: rgba(0, 0, 0, 0.4); /*	-	*/
+
+  --messages-color: rgba(0, 0, 0, 0.4); /*	-	*/
+
+  --textarea-color: 0, 0, 0;
+  --textarea-text-color: #fff; /*	-	*/
+
+  --card-color: rgba(0, 0, 0, 0.4);
+  --card-color-hover: rgba(0, 0, 0, 0.5);
+  --card-color-select: rgba(0, 0, 0, 0.7); /*	-	*/
+
+  --interactive-normal: #aaa;
+  --interactive-hover: #ddd;
+  --interactive-active: #fff;
+  --interactive-muted: #777; /*	-	*/
+
+  --background-modifier-hover: rgba(255, 255, 255, 0.075);
+  --background-modifier-selected: rgba(255, 255, 255, 0.125);
+}
+.platform-win .typeWindows-1za-n7 {
+  height: 9px;
+  margin-top: 0;
+  position: absolute;
+  top: 80px;
+  left: -30px;
+  width: 100%;
+  background: transparent;
+}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+  width: 27px;
+  transition: 0.25s;
+  background-color: transparent;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
+  width: 240px;
+  background-color: var(--background-tertiary);
+}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN {
+  transform: scale(1.3);
+  transition: 0.25s;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN {
+  transform: scale(1);
+}
+.icon-3cZ1F_ {
+  color: var(--text-normal);
+}
+.menu-3sdvDG {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
