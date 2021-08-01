@@ -3,7 +3,7 @@
  * @author ! Frazixᴰᴱⱽ#9999
  * @version 1.0.0
  * @description Changes The hole discord and make it look more cooler then ever.
- * @source https://github.com/DiscordStyles/RadialStatus
+ * @source https://github.com/Frazix12/Cool-Discord/
  * @website https://frazix12.repl.co/
 */
 
@@ -17,36 +17,37 @@
 @import url("https://frazix-gamers.github.io/Cool-Discord/css/source.css");
 
 :root {
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 3px;
-  --rs-large-spacing: 4px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 3px;
-  --rs-large-width: 4px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
-  --rs-phone-color: var(--rs-online-color);
-  --rs-phone-visible: block;
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
 
-  --home-button-image: url("https://discordstyles.github.io/FrostedGlass/assets/discord.svg"); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --home-button-size: cover;
-  --home-button-position: center;
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(
+    --rs-online-color
+  ); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+
   --font: "Whitney";
 
-  --update-notice-1: none;
-  --HSL-server-icon-size: 48px;
-  --HSL-server-spacing: 8px;
-
-  --app-bg: url("https://i.imgur.com/g8VMJZL.jpg");
+  --HSL-server-icon-size: 40px; /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px; /* Spacing between each server icon | DEFAULT: 10px */
+  --app-bg: url();
   --app-blur: 6px;
   --app-margin: 24px;
-  --app-radius: 8px;
-  --app-accent: #663dd7;
+  --app-radius: 18px;
+  --app-accent: #1f2942;
   --app-accent-image: none;
   --app-accent-rgb: 215, 61, 61;
   --app-accent-text: rgb(255, 255, 255); /*	-	*/
