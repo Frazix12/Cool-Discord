@@ -1,0 +1,186 @@
+.platform-win .winButton-iRh8-Z {
+  position: relative;
+  top: 10px;
+  right: var(--TB-position-right, 0px);
+  height: var(--TB-height, 48px);
+  width: var(--TB-width, 40px);
+}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+  width: 27px;
+  transition: 0.25s;
+  background-color: transparent;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
+  width: 240px;
+  background-color: var(--background-tertiary);
+}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN {
+  transform: scale(1.3);
+  transition: 0.25s;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN {
+  transform: scale(1);
+}
+.icon-3cZ1F_ {
+  color: var(--text-normal);
+}
+.menu-3sdvDG {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.input-cIJ7To,
+.scrollableContainer-2NUZem {
+  background-color: #292929;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid transparent;
+  outline: none;
+}
+.input-cIJ7To:hover,
+.scrollableContainer-2NUZem:hover {
+  border-color: #4373c5;
+  background-color: #2e2c2c;
+}
+.input-cIJ7To:focus-within,
+.scrollableContainer-2NUZem:focus-within {
+  background-color: #2e2c2c;
+  border-color: var(--color-brand-lighter);
+}
+.scrollableContainer-2NUZem {
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+.container-q03LZO {
+  border: 1px #4550e0 solid;
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px 5px;
+  width: max-content;
+  height: 28px;
+}
+/* if user have no badge */
+.container-q03LZO:empty {
+  visibility: hidden;
+}
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.roleCircle-3xAZ1j::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.3;
+  z-index: -1;
+}
+.container-6sXIoE {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+.container-6sXIoE .timeline-UWmgAx {
+  position: relative !important;
+}
+.container-6sXIoE .bar-g2ZMIm {
+  position: absolute !important;
+  bottom: -6px !important;
+  left: -8px !important;
+  width: 240px !important;
+  height: 53px !important;
+  margin: 0 !important;
+  -webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;
+  mask-image: linear-gradient(0.25turn, #0008, #0002) !important;
+  border-radius: 0 !important;
+}
+.barFill-Dhkah7 {
+  border-radius: 0 !important;
+}
+.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm {
+  height: 88px !important;
+}
+.container-6sXIoE .button-14-BFJ:hover {
+  background-color: transparent !important;
+}
+.barFill-Dhkah7,
+.timeline-UWmgAx:hover .barFill-Dhkah7 {
+  background: var(--spotify-color) !important;
+}
+.inner-WRV6k5 {
+  z-index: 1 !important;
+}
+.barText-lmqc5O,
+.grabber-7sd5f5 {
+  display: none !important;
+}
+.membersWrap-2h-GB4 .members-1998pB {
+  /*Members list background*/
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
+}
+.sidebar-2K8pFh {
+  /*Channel list background*/
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
+}
+.scroller-1Bvpku {
+  /*Server list background*/
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
+}
+/* USER POPOUT*/
+.userPopout-xaxa6l {
+  width: 300px !important;
+  box-shadow: none;
+  transform: translateZ(0) !important;
+  --USRBG-banner-height: 120px;
+}
+.userPopout-xaxa6l .popoutBanner-19WKGg {
+  height: 120px;
+}
+.protip-2urNh2 {
+  display: none;
+}
+.avatarWrapper-3r9PdD {
+  top: 7.5%;
+  left: var(--user-popout-avatar-position);
+}
+.userPopout-xaxa6l .headerTop-3vNv-a {
+  padding: 0px !important;
+}
+.userPopout-xaxa6l .headerText-1vVs-U {
+  padding-top: 15% !important;
+  text-align: center;
+  background-color: transparent;
+}
+.userPopout-xaxa6l .profileBadges-ohc0Vu {
+  top: 25%;
+}
+.userPopout-xaxa6l .customStatus-oN4ZZY {
+  padding-top: 5px;
+  text-align: center;
+}
+.userPopout-xaxa6l .aboutMeSection-1Fw5Ia,
+.base-1x0h_U.muted-3-7c5L,
+.userPopout-xaxa6l .headerText-1HLrL7 {
+  text-align: center;
+  justify-content: center;
+}
+.avatar-1BDn8e.clickable-1bVtEA {
+  filter: drop-shadow(0 0 3px);
+  color: pink;
+}
+
+.avatar-1BDn8e:hover.clickable-1bVtEA:hover {
+  filter: drop-shadow(0 0 8px);
+  color: pink;
+  transform: rotate(360deg);
+  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
